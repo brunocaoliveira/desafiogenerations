@@ -1,5 +1,6 @@
 package desafiogenerations.models;
 
+
 import jakarta.persistence.*;
 
 @Entity
