@@ -9,7 +9,7 @@ RUN mvn clean install -DskipTests
 
 FROM openjdk:17-jdk-slim
 
-EXPOSE 8080
+EXPOSE 5432
 
 COPY --from=build target/desafiogenerations-0.0.1-SNAPSHOT.jar app.jar
 
